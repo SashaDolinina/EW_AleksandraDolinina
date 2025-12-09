@@ -1,0 +1,76 @@
+*{
+    margin-top: 25px;
+}
+
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 25px;
+}
+
+.c{
+    width: 200px;
+    height: 200px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 70px;
+}
+
+p {
+    text-align: center;
+}
+
+.enlaces{
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+a{
+    color: greenyellow;
+}
+
+a:link{
+    color: greenyellow;
+}
+
+a:visited{
+    color: purple;
+}
+
+a:hover{
+    color: red;
+}
+a:active{
+    color: yellow;
+}
+
+
+.verde1{
+    background-color: rgb(114, 147, 6);
+}
+
+.verde2{
+    background-color: rgb(161, 158, 6); flex-grow: 2;
+}
+
+.verde3{
+    background-color: rgb(134, 173, 7); flex-shrink: 15;
+}
+
+.verde4{
+    background-color: rgb(137, 177, 5); flex-grow: 1;
+}
+
+.verde5{
+    background-color: rgb(144, 186, 6);
+}
+
+.verde6{
+    background-color: rgb(162, 208, 10);
+}

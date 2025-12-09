@@ -9,26 +9,37 @@ header {
     background-image: url(IMG/fondo.jpg);
     background-size: cover;
     width: 2000px;
-    height: 1000px;
+    height: 3000px;
 }
 
 .texto1 {
     color: white;
     font-size: 80px;
-   padding-left: 200px;
+   padding-left: 220px;
    padding-top: 150px;
 }
 
 .texto {
     color: white;
     font-size: 60px;
-    padding-left: 200px;
+    padding-left: 220px;
 }
 
 .ACT18 {
     width: 1500px;
     height: 200px;
-margin-left: 200px;
+margin-left: 220px;
+margin-top: 170px;
+border: 5px solid white;  
+padding-top: 110px;
+list-style: none;
+text-align: center;
+}
+
+.ACT20 {
+    width: 1500px;
+    height: 200px;
+margin-left: 220px;
 margin-top: 170px;
 border: 5px solid white;  
 padding-top: 110px;
