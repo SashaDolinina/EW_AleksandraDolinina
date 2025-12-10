@@ -1,0 +1,41 @@
+* {
+
+    padding: 0;
+}
+
+.conteiner1 {
+    width: 80vw;
+    height: 70vh;
+    margin: auto;
+}
+
+.cuadro1 {
+    width: 60vw;
+    height: 30vh;
+}
+
+.cuadro2 {
+    width: 20vw;
+    height: 30vh;
+}
+
+.pie {
+    width: 80vw;
+    height: 10vh;
+}
+
+.gris {
+    background-color: grey;
+}
+
+.violeta {
+    background-color: magenta;
+}
+
+.verde {
+    background-color: greenyellow;
+}
+
+.rojo {
+    background-color: red;
+}
