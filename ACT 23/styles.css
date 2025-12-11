@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ section {
+            display: flex;
+            flex-wrap: wrap;
+            margin: auto;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        figure {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        figure:hover img {
+            filter: blur(5px);
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            color: blueviolet;
+            font-size: 70px;
+        }
+
+        p {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 50px;
+            color: black;
+        }
