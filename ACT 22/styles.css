@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.caja1 {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    height: 100vh;
+    border: 1px solid black;
+}
+
+.nombres {
+  background-color: magenta;
+  margin: 15px;              
+  padding: 5px;              
+}
