@@ -16,10 +16,11 @@
         figure {
             margin-left: 20px;
             margin-right: 20px;
+            filter: blur(5px);
         }
 
-        figure:hover img {
-            filter: blur(5px);
+        figure:hover {
+            filter: blur(0px);
         }
 
         h1 {
