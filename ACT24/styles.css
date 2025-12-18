@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Mountains of Christmas", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.page {
+  width: 100vw;
+  border: 2px dashed red;
+  margin: 10px;
+  }
+
+h1 {
+  font-size: 55px;
+  color: red;
+  font-weight: 700;
+  word-spacing: 20px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 30px;
+  color: white;
+}
+
+h2:hover {
+  color: black;
+}
+
+h1:hover {
+  color: green;          
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h5 {
+  font-size: 8.5px;
+}
+
+.card1 h2 {
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+.card2 h2 {
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+}
+
+.card {
+  width: 400px;
+  height: 200px;
+  border: 2px solid red;
+  margin: 8px;
+  justify-content: center;
+  text-align: center;
+}
+
+.card img {
+  height: 95%;
+  width: 60%;
+}
+
+.card1 {
+  background: linear-gradient(to bottom, red 0 5%, green 50%, white 100%);
+}
+
+.card2 {
+  background: linear-gradient(to right, green 0 4%, white 100%);
+}
+
+.card3 {
+  background: linear-gradient( 45deg, white 0 1%, red 20% 90%, white 100%)
+}
+
+.card4 {
+  background: linear-gradient(to bottom, green 20%, red 30% 100% );
+}
+
+.card5 {
+  background: linear-gradient(45deg, green 0 40%, red 40% 70%, white 70% 100%);
+}
+
+.card6 {
+  background: linear-gradient(to right, green 0 5% , white 15% 25%, red 35% 42%, green 46% 57%, white 62% 67%, red 83% 85%, green 98% 100%);
+}
+
+.card6:hover {
+   background: linear-gradient(to right, red 0 5% , green 15% 25%, white 35% 42%, red 46% 57%, green 62% 67%, white 83% 85%, red 98% 100%);
+}
+
+.conteiner {
+  background: linear-gradient(to bottom, white 0 100%);
+  color: black;
+}
+
+.conteiner:hover {
+  background: linear-gradient(to bottom, green 0%, red 100%);
+  color: white;
+}
+
+.cardtext {
+  height: 150px;
+  margin-top: 30px;
+  padding-right: 200px;
+  padding-left: 200px;
+  border: 3px solid green;
+}
+
+.cardtext p {
+  font-size: 15px;
+  text-align: center;
+  padding-top: 30px;
+}
+

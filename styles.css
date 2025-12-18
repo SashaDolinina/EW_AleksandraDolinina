@@ -8,80 +8,38 @@
 header {
     background-image: url(IMG/fondo.jpg);
     background-size: cover;
-    width: 2000px;
+    width: 1200px;
     height: 3000px;
+    border: 10px solid rgb(255, 83, 192);
 }
 
 .texto1 {
     color: white;
-    font-size: 80px;
-   padding-left: 220px;
+    font-size: 40px;
+   padding-left: 100px;
    padding-top: 150px;
 }
 
 .texto {
     color: white;
-    font-size: 60px;
-    padding-left: 220px;
+    font-size: 40px;
+    padding-left: 100px;
 }
 
-.ACT18 {
-    width: 1500px;
-    height: 200px;
-margin-left: 220px;
-margin-top: 170px;
+.ACT {
+    width: 500px;
+    height: 100px;
+justify-content: center;
+margin-bottom: 80px;
+margin-top: 80px;
 border: 5px solid white;  
-padding-top: 110px;
-list-style: none;
-text-align: center;
-}
-
-.ACT20 {
-    width: 1500px;
-    height: 200px;
-margin-left: 220px;
-margin-top: 170px;
-border: 5px solid white;  
-padding-top: 110px;
-list-style: none;
-text-align: center;
-}
-
-.ACT21 {
-    width: 1500px;
-    height: 200px;
-margin-left: 220px;
-margin-top: 170px;
-border: 5px solid white;  
-padding-top: 110px;
-list-style: none;
-text-align: center;
-}
-
-.ACT22 {
-    width: 1500px;
-    height: 200px;
-margin-left: 220px;
-margin-top: 170px;
-border: 5px solid white;  
-padding-top: 110px;
-list-style: none;
-text-align: center;
-}
-
-.ACT23 {
-    width: 1500px;
-    height: 200px;
-margin-left: 220px;
-margin-top: 170px;
-border: 5px solid white;  
-padding-top: 110px;
+padding-top: 55px;
 list-style: none;
 text-align: center;
 }
 
 #trabajos a {
-    font-size: 70px;
+    font-size: 40px;
     color: white;
     text-decoration: none;
 }
@@ -92,4 +50,8 @@ text-align: center;
 
 .rosa {
     background-color: rgb(255, 83, 192);
+}
+
+.ACT:hover {
+    background-color: blueviolet;
 }
