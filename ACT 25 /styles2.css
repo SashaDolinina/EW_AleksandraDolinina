@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Story+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+ margin-top: 180px;
+}
+
+.pagina img {
+  width: 240px;        
+  height: 170px;
+  filter: grayscale(100%);
+}
+
+.pagina img:hover {
+filter: grayscale(0%);
+}
+
+.pagina{
+   display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+   list-style: none;
+   text-align: center;
+}
+
+.pagina div{
+  width: 260px;        
+  height: 290px;
+  text-align: center;
+  font-family: "Story Script", sans-serif;
+}
+
+.pagina h3 {
+  margin-top: 50px;
+}
+
+.btn {
+  width: 100px;
+  height: 60px;
+  background: yellow;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  border: 1px solid rgb(255, 140, 0);
+}
+
+.enlace {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.enlace p {
+  margin-top: 20px;
+}
+
+.enlace a:hover {
+  color: green;
+}

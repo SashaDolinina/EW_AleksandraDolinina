@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Story+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+
+.home {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-image: url("IMG/Fondo.webp"); 
+  background-size: cover;
+  background-position: center;
+}
+
+.home__title {
+  font-family: "Story Script", sans-serif;
+}
+
+.home__title a {
+  color:  yellowgreen;
+}
+
+.home__title a:hover {
+  color: white;
+}
+
+.home__text {
+  font-family: "Roboto", sans-serif;
+}
