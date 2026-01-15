@@ -6,16 +6,15 @@
 
 
 header {
+    background-attachment: fixed;
     background-image: url(IMG/fondo.jpg);
     background-size: cover;
-    width: 1200px;
-    height: 3000px;
     border: 10px solid rgb(255, 83, 192);
 }
 
 .texto1 {
-    color: white;
-    font-size: 40px;
+   color: white;
+   font-size: 40px;
    padding-left: 100px;
    padding-top: 150px;
 }
@@ -27,15 +26,21 @@ header {
 }
 
 .ACT {
-    width: 500px;
-    height: 100px;
+    width: 50vw;
+    height: 12vh;
 justify-content: center;
+text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+padding-right: 20px;
 margin-bottom: 80px;
 margin-top: 80px;
 border: 5px solid white;  
-padding-top: 55px;
 list-style: none;
-text-align: center;
+box-shadow: 5px 15px 20px rgb(33, 2, 71);
+background-attachment: fixed;
+background-size: cover;
 }
 
 #trabajos a {
@@ -45,7 +50,7 @@ text-align: center;
 }
 
 #trabajos a:hover {
-    color: blue;
+    color: orange;
 }
 
 .rosa {
@@ -54,4 +59,5 @@ text-align: center;
 
 .ACT:hover {
     background-color: blueviolet;
+    border: 5px solid rgb(255, 83, 192);
 }
