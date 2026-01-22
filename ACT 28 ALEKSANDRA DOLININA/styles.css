@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: "new-astro", sans-serif;
+    font-weight: 700;
+font-style: normal;
+margin-left: 20px;
+margin-top: 20px;
+}
+
+.ACDR ul {
+  list-style: none;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: #fe4934;
+}
+
+.ACDR a {
+  text-decoration: none;
+  color: white;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-family: "alight-slab", sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 2vw;
+}
+
+.intro {
+    font-family: "alight-slab", sans-serif;
+font-weight: 700;
+font-style: normal;
+text-align: center;
+margin-top: 30px;
+font-size: 2vw;
+}
+
+.banner-rebajas img {
+  width: 100%;
+  display: block;
+}
+
+section {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  background-image: url(IMG/Fondo.webp);
+  background-size:cover;
+  height: 400px;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+section img {
+   height: 400px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+    list-style: none;
+}
+
+footer p {
+  text-align: center;
+  font-family: "alight-slab", sans-serif;
+font-weight: 700;
+font-style: normal;
+color: #fe4934;
+margin: 30px;
+font-size: 2vw;
+text-decoration: none;
+  padding-left: 6vw;
+  padding-right: 6vw;
+}
