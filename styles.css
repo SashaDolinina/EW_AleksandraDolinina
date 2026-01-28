@@ -14,15 +14,9 @@ header {
 
 .texto1 {
    color: white;
-   font-size: 40px;
+   font-size: 5vw;
    padding-left: 100px;
    padding-top: 150px;
-}
-
-.texto {
-    color: white;
-    font-size: 40px;
-    padding-left: 100px;
 }
 
 .ACT {
