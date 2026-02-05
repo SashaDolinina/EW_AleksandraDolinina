@@ -33,21 +33,21 @@ h4 {
 nav ul {
     list-style: none;
     display: flex;
+    padding: 2vw;
     justify-content: space-between;
     background-color: #feb236;
 }
 
 nav ul li {
-    padding-top: 1.5vh;
-    padding-bottom: 2vh;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
 }
 
 nav ul li a {
     text-decoration: none;
     color: black;
     font-size: 1.6vw;
+    padding: 1.5vw;
 }
 
 nav ul li:hover {
@@ -164,8 +164,5 @@ nav ul li:hover {
         margin-bottom: 5vw;
     }
 
-    nav ul li:hover {
-    background-color: transparent;
-}
-
+   
 }
