@@ -15,15 +15,19 @@ header {
 }
 
 header ul {
+    list-style: none;
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding: 2vh 5vw;
+    padding-top: 2vh;
+    margin-left: 5vw;
     font-weight: 700;
+    margin-bottom: 1vh;
 }
 
 header li {
     font-size: 1vw;
+    padding-right: 6vw;
 }
 
 li a {
@@ -36,7 +40,7 @@ h1 {
 font-family: "begaz", sans-serif;
 font-weight: 400;
 font-style: normal;
-font-size: 4vw;
+font-size: 3vw;
 color: #DAA00F;
 }
 
@@ -49,20 +53,23 @@ color: #DAA00F;
     width: 100%;
 }
 
-main {
-          width: 90vw;
-    margin: 0 auto;
-    margin-bottom: 3vh;
+main, .cajas {
+    width: 90vw;
+    margin: 0;
+    margin-left: 5vw;
+    margin-bottom: 1vh;
 }
 
 .cajaamarilla {
-    height: 10vh;
+    width: 100vw;
     background-color: #EEDC10;
 }
 
 .cajaamarilla p {
- padding-top: 3vw;
  font-size: 2vw;
+ padding-top: 2vh;
+ padding-bottom: 2vh;
+ padding-left: 6vw;
 
 }
 
@@ -80,6 +87,8 @@ main {
 .cajaimg p {
  text-align: center;
  font-weight: 700;
+ font-size: 2vw;
+ padding-top: 1vh;
 
 }
 
@@ -87,13 +96,18 @@ main {
     width: 25vw;
 }
 
+.caja ul {
+    list-style: none;
+}
+
 .caja {
     width: 60vw;
     display:flex;
-    margin-left: 2vw;
     justify-content:space-between;
     margin-top: 2vw;
     font-size: 1vw;
+    margin-left: 5vw;
+    margin-bottom: 2vh;
 }
 
 @media only screen and (max-width:600px){
