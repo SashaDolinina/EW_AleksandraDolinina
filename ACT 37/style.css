@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   font-family: "forager", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #ffffff;
+}
+
+h1 {
+    margin: 3vh;
+    font-size: 3vw;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 2vw;
+    }
+
+.gallery {
+    border: 2px solid orange;
+    margin: 4vw auto;
+    padding: 2vw;
+    width: 80%;
+    align-items: center;
+    background-image: url("fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+nav {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: orange;
+    text-decoration: none;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.images div a img {
+     width: 15vw;
+}
+
+.gallery:hover {
+    background-image: url("IMG/fondo.jpg");
+}
+
+.text {
+    background-color: orange;
+    padding: 20px;
+    width: 80%;
+    margin: 20px auto;
+    font-size: 1.5vw;
+}
+
+footer {
+    border: 2px solid orange;
+    padding: 15px;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    font-size: 2.5vw;
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: black;
+    }
+
+    h1 {
+        color: orange;
+    }
+
+    footer {
+        color: orange;
+    }
+
+    .images {
+        flex-direction: row;
+    }
+}
