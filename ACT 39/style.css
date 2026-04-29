@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-areas:
+        "header header"
+        "menu content"
+        "footer footer";
+    width: 90%;
+    margin: 4vw;
+    border: 0.10vw solid blue;
+}
+
+.header {
+    grid-area: header;
+    text-align: center;
+    color: blue;
+    border-bottom: 0.10vw solid blue;
+}
+
+.menu {
+    grid-area: menu;
+    padding: 20px;
+    border-right: 0.10vw solid blue;
+}
+
+.menu a {
+    display: block;
+    color: blue;
+}
+
+.content {
+    grid-area: content;
+    padding: 10px;
+    font-size: 1.20vw;
+}
+
+.footer {
+    grid-area: footer;
+    background: blue;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-top: 0.10vw solid blue;
+}
+
+.footer h4 {
+    margin: 0;
+}
